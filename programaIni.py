@@ -1,4 +1,5 @@
 from pprint import pprint
+from libA import libreriaA
 
 l = [
     "coche",
@@ -8,3 +9,5 @@ l = [
 ]
 
 pprint(l)
+
+libreriaA.saludo()
